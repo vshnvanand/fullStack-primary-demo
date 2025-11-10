@@ -10,6 +10,7 @@ app.use(cors(
             "https://localhost:5174",
             "https://localhost:3000",
             // add production url
+            "http://3.92.147.166:5174/",
         ],
         credentials: true,
         methods: ["GET","POST","PUT"],
